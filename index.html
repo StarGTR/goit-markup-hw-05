@@ -1,4 +1,4 @@
-<!-- 4 th Home task-->
+<!-- 5 th Home task-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,6 +16,10 @@
 
 <body>
  
+ 
+
+
+
     <!--Header and contacts-->
     <header class="header ">
         
@@ -28,7 +32,8 @@
 <!--navigation-->
     <nav class="nav ">
         <ul class="nav-list ">
-            <li class="nav-item current"><a class="nav-link" href="./index.html">Studio</a></li>
+            <li class="nav-item current">
+                <a class="nav-link" href="./index.html">Studio</a></li>
             <li class="nav-item"><a class="nav-link" href="./portfolio.html">Portfolio</a></li>
               <li class="nav-item"><a class="nav-link" href="./Contacts">Contacts</a></li>
     
@@ -69,8 +74,8 @@
      Effective Solutions for Your Business
     </h1>
 
-    <button class="main-btn" type="button">Order Service</button>
-
+    
+    <button class="main-btn" type="button" data-modal-open>Order Service</button>
 
 </section>
 </div> 
@@ -346,6 +351,21 @@
 </div>
 </div>
     </footer>
+
+      <!--JS MODAL button -->
+ 
+      <div class="backdrop is-hidden" data-modal >
+        <div class="modal">
+           
+             <button type="button" class="modal-close" data-modal-close>x</button>
+        </div>
+      </div>
+ 
+      
+
+    <script src="./js/modal.js">
+
+    </script>
 </body>
 </html>
 
